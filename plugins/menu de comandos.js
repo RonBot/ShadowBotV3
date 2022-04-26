@@ -1,23 +1,29 @@
-let  fs  =  requerir ( 'fs' )
-let  fetch  =  require ( 'node-fetch' )
-dejar  momento  =  requerir ( 'momento-zona horaria' )
-dejar  ruta  =  requerir ( 'ruta' )
-let  util  =  require ( 'util' )
-let  handler  =  async  ( m ,  { conn , usedPrefix } )  =>  {
-let  pp  =  './Menu2.jpg'
-sea  ​​quien  =  m . mencionadoJid  &&  m . mencionadoJid [ 0 ] ? m _ mencionadoJid [ 0 ] : m . de mi ? contacto _ usuario _ yid : m . remitente
-let nombre de  usuario  =  conexión . getName ( quién )
-//let vn='./media/mariana.mp3'
-dejar  menú  = `
+//NO MODIFIQUES EL NÚMERO DEL CREADOR NI EL NOMBRE.. SOLO AGREGA LA INFORMACIÓN QUE TU QUIERAS O EDITALO A TU MANERA PERO DEJANDO LOS CREDITOS <3 
+//PUEDES AGREGAR OTRA FILAS DE PAYPAL, GRUPOS, PERO DEJA ALGUNOS CREDITOS, YA QUE ES LA UNICA MANERA DE INGRESOS DEL BOT
+//SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
+//LLEVO AL REDEDOR DE 1 AÑO Y MEDIO EN LA ELABORACION DE ESTE BOT, SI TU LO EDITAS EN UNA SEMANA NO ERES TU EL CREADOR, SI LO EDITAS TOTALMENTE A TU MANERA SERIA UTULIZADO MI BOT COMO BASE Y AHI SI LO SERIAS  
+
+let fs = require('fs')
+let fetch = require('node-fetch')
+let moment = require('moment-timezone')
+let path = require('path')
+let util = require('util')
+let handler = async (m, { conn, usedPrefix }) => {
+let pp = './Menu2.jpg'
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let username = conn.getName(who)
+//let vn = './media/mariana.mp3'
+let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝑲𝑨𝑵 - 𝑩𝑶𝑻*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${ nombre de usuario } !!*
+║➤ *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: Kanixx*
+║➤ *Creador del Bot: Bruno Sobrino* 
+║➤ *Creador del Bot: Kanixx* 
 ║➤ *Numero del creador:* *wa.me/573023900508 (No Bot)*
-║➤ *Número del Bot oficial:* *wa.me/3545393221*
-║➤ *Base: Bruno Sobrino*
+║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
+║➤ *Numero del Bot oficial:* *wa.me/3545393221*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
@@ -103,9 +109,12 @@ dejar  menú  = `
 ┣ ඬ⃟📥 _${usedPrefix}dlvid *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp3 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4 *link yt*_
+┣ ඬ⃟📥 _${usedPrefix}ytmp3.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}play *titulo del audio*_
+┣ ඬ⃟📥 _${usedPrefix}play.1 *titulo del audio*_
 ┣ ඬ⃟📥 _${usedPrefix}play2 *titulo del video*_
+┣ ඬ⃟📥 _${usedPrefix}play.2 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}play3 *titulo del audio/video*_
 ┣ ඬ⃟📥 _${usedPrefix}play4 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}letra *nombredelacanción*_
@@ -340,7 +349,7 @@ dejar  menú  = `
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©𝑲𝑨𝑵 - 𝑩𝑶𝑻', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '©Kan - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
@@ -349,4 +358,3 @@ conn.send3ButtonImg(m.chat, pp, menu, '©𝑲𝑨𝑵 - 𝑩𝑶𝑻', '𝙼𝙴
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
 module.exports = handler
-
