@@ -19,8 +19,8 @@ let menu =`
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: Bruno Sobrino* 
-║➤ *Creador del Bot: Kanixx* 
+║➤ *Base: Bruno Sobrino* 
+║➤ *Creador del Bot: Kanixxx* 
 ║➤ *Numero del creador:* *wa.me/573023900508 (No Bot)*
 ║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
 ║➤ *Numero del Bot oficial:* *wa.me/3545393221*
