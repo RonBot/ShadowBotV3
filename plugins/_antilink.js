@@ -8,8 +8,8 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
 
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINK 」*\n*Hasta la vista Webon👋, ${await this.getName(m.sender)} rompiste las reglas serás violado🤑....!!*`)
-    if (isAdmin) return m.reply('*Te salvaste cagon(a) eres admin, no puedo eliminarte :v*')
-    if (!isBotAdmin) return m.reply('*El bot no es admin, no puedo violar a las personas*')
+    if (isAdmin) return m.reply('*Te salvaste cagon eres admin, no puedo violarte :v*')
+    if (!isBotAdmin) return m.reply('*El bot no es admin, no puedo violar a las personas :(*')
     let linkGC = ('https://chat.whatsapp.com/' + await this.groupInviteCode(m.chat))
     let isLinkThisGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkThisGc.test(m.text)
