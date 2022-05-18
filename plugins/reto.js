@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-  conn.reply(m.chat,`*┌────「 RETO 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 𝐒𝐇𝐀𝐃𝐎𝐖 」─*`, m)
+  conn.reply(m.chat,`*┌────「 RETO 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「𝑲𝑨𝑵 - 𝑩𝑶𝑻  」─*`, m)
 }
 handler.help = ['reto']
 handler.tags = ['games']
@@ -35,7 +35,7 @@ global.bucin = [
 "Escribe en tu estado de WhatsApp que te gusta comer tierra",
 "Debes de poner la fotografía de un participante del grupo que sea del sexo opuesto al tuyo en tu perfil de WhatsApp durante 3 días 📸📸",
 "Tienes que mandar un audio cantando la canción: Un pato que va cantando alegremente cua cua 🦆",
-"Envía un mensaje a tu ex y dile todavía me gustas", "Envía un audio diciendo amo a The Shadow Brokers - Bot", 
+"Envía un mensaje a tu ex y dile todavía me gustas", "Envía un audio diciendo amo a Kanixxx te amo", 
 "Dile a tu crush que la amas y pasa captura al grupo", "Envía un audio cantando", 
 "Envía una foto en la que salgas tu sin taparte la cara ni nada", "Envía un video bailando", 
 "Invita a personas que no conoces a tomarse una selfi contigo y luego envíalo al grupo", 
@@ -108,6 +108,8 @@ global.bucin = [
 "cambiar el nombre a 'Gay' durante 24 horas", 
 "¡Menciona tu tipo de novia!", 
 "Di 'Estoy enamorado de ti, ¿quieres ser mi novio o no?' al último sexo opuesto con el que conversaste en WhatsApp, espera a que responda", 
-"Háblale a tu ex por WhatsApp y dile 'te amo, por favor vuelve'. Manda una captura de pantalla como evidencia de reto cumplido!"
+"Háblale a tu ex por WhatsApp y dile 'te amo, por favor vuelve'. Manda una captura de pantalla como evidencia de reto cumplido!",
+"Dile a tu herman@ que es adoptad@ cuenta su reacción",
+"Pasa tu pack & debatimos sobre él"
 
 ] 
