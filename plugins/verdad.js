@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-  conn.reply(m.chat,`*┌────「 VERDAD 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 𝐒𝐇𝐀𝐃𝐎𝐖 」─*`, m)
+  conn.reply(m.chat,`*┌────「 VERDAD 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 𝑲𝑨𝑵 - 𝑩𝑶𝑻 」─*`, m)
 }
 handler.help = ['verdad']
 handler.tags = ['General']
@@ -175,6 +175,9 @@ global.verdad = [
 "¿De quien estas enamorado(a) ?", 
 "Que estrella te gusta", 
 "¿Empezaste algo con XY (insertar nombre)?", 
-"Alguna vez has robado algo?"
+"Alguna vez has robado algo?",
+"Eres gay/lesbiana o te has sentido asi alguna vez?",
+"Pasarías el pack a Kanixxx?",
+"¿Que piensas de Kanixxx?"
 
 ] 
