@@ -239,13 +239,6 @@ let menu =`
 ┣ ඬ⃟👾 _${usedPrefix}subirestado *texto / responder video, imagen o gif*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
-┃ *<COMANDOS +18/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ Usar bajo su responsabilidad 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🔞 _${usedPrefix}labiblia_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
 ┃ *<EFECTOS PARA NOTAS DE VOZ O AUDIOS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ Responde a un audio o nota de voz
