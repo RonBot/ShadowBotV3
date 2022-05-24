@@ -59,7 +59,7 @@ global.packname = '🔥KAN - BOT🥀'
 global.author = 'by Kanixxx 😎'
 
 
-global.wm = '©The Shadow Brokers - Bot'
+global.wm = '©Kan - Bot'
 global.wait = '*Espere un momento..*'
 
 
