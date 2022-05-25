@@ -14,21 +14,21 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+╭══〘✦ ✦ ✦ ✦ ✦ ✦〙══╮
 ║═ *𝑲𝑨𝑵 - 𝑩𝑶𝑻*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *🥀𝗛ola, ${username}!!*
+║➣ *🥀𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Base: Bruno Sobrino* 
-║➤ *Creador del Bot: Kanixxx* 
-║➤ *Numero del creador:* *wa.me/573023900508 (No Bot)*
-║➤ *Numero del Bot oficial:* *wa.me/3545393221*
+║➣ *Base: Bruno Sobrino* 
+║➣ *Creador del Bot: Kanixxx* 
+║➣ *Numero del creador:* *wa.me/573023900508 (No Bot)*
+║➣ *Numero del SubBot oficial:* *wa.me/37122267202*
+║➣ *El número del Bot oficial queda restringido si quiere convertirse en SubBot deberá hablar con el creador del bot*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══╡✯✯✯✯✯✯✯✯╞══╯
-┏━━━━━━━━━━━━━┓
-┃ *<INFORMACIÓN|MENUS/>*
+╰══〘✦ ✦ ✦ ✦ ✦ ✦〙══╯
+┏━─━─━─━─━─━─━─
+┃ *ꪶINFORMACIÓN|MENUSꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
@@ -41,37 +41,37 @@ let menu =`
 ┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
 ┣ ඬ⃟ℹ️ _Codigos para audios_
 ┣ ඬ⃟ℹ️ _Términos y condiciones_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶREPORTA FALLOS EN ALGÚN COMANDOꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ Reporta cualquier comando que falle para poder solucionarlo
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟📬 _${usedPrefix}bug *comando con fallas*_
 ┣ ඬ⃟📬 _${usedPrefix}report *comando con fallas*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<UNE UN BOT A TU GRUPO/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶUNE UN BOT A TU GRUPOꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🤖 _${usedPrefix}join *link del grupo*_ 
 ┣ ඬ⃟🤖 _${usedPrefix}bots_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<TOPS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶTOPSꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🎖️ _${usedPrefix}top10gays_
 ┣ ඬ⃟🎖️ _${usedPrefix}toplind@s_
 ┣ ඬ⃟🎖️ _${usedPrefix}topput@s_
 ┣ ඬ⃟🎖️ _${usedPrefix}toppajer@s_
 ┣ ඬ⃟🎖️ _${usedPrefix}topotakus_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<NUMERO DEL CREADOR/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶNUMERO DEL CREADORꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟👻 _${usedPrefix}owner_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<JUEGOS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶJUEGOSꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
 ┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
@@ -97,9 +97,9 @@ let menu =`
 ┣ ඬ⃟🎮 _${usedPrefix}prostituta *@tag / nombre*_
 ┣ ඬ⃟🕹 _${usedPrefix}prostituto *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}doxear *@tag / nombre*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<DESCARGAS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶDESCARGASꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟📥 _${usedPrefix}imagen *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ytsearch *texto*_
@@ -130,9 +130,9 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
 ┣ ඬ⃟📥 _${usedPrefix}twvid *link de video de twitter*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<GESTION DE GRUPOS/>* 
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶGESTION DE GRUPOSꫂ* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟💎 _${usedPrefix}admins *texto*_ 
 ┣ ඬ⃟💎 _${usedPrefix}añadir *numero*_ 
@@ -161,9 +161,9 @@ let menu =`
 ┣ ඬ⃟💎 _${usedPrefix}fantasmas_
 ┣ ඬ⃟💎 _${usedPrefix}banchat_
 ┣ ඬ⃟💎 _${usedPrefix}unbanchat_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CREADORES/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶCREADORESꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🧧 _${usedPrefix}s_
 ┣ ඬ⃟🧧 _${usedPrefix}sticker_
@@ -186,9 +186,9 @@ let menu =`
 ┣ ඬ⃟🧧 _${usedPrefix}swm *link de imagen de google*_
 ┣ ඬ⃟🧧 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ඬ⃟🧧 _${usedPrefix}tovideo *responde a una nota de voz*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<RANDOM|EXTRAS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶRANDOM|EXTRASꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟👾 _${usedPrefix}frase_
 ┣ ඬ⃟👾 _${usedPrefix}futbol_
@@ -235,9 +235,9 @@ let menu =`
 ┣ ඬ⃟👾 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ඬ⃟👾 _${usedPrefix}anime *random / waifu / husbu /neko*_
 ┣ ඬ⃟👾 _${usedPrefix}subirestado *texto / responder video, imagen o gif*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<EFECTOS PARA NOTAS DE VOZ O AUDIOS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶEFECTOS PARA NOTAS DE VOZ O AUDIOSꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ Responde a un audio o nota de voz
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -252,29 +252,29 @@ let menu =`
 ┣ ඬ⃟🎤 _${usedPrefix}slow_
 ┣ ඬ⃟🎤 _${usedPrefix}smooth_
 ┣ ඬ⃟🎤 _${usedPrefix}vibracion *cantidad*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<AUDIOS/>* 
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶAUDIOSꫂ* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🔊 _${usedPrefix}menu2_
 ┣ ඬ⃟🔊 _${usedPrefix}menuaudios_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CHAT ANONIMO/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶCHAT ANONIMOꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟📳 _${usedPrefix}start_
 ┣ ඬ⃟📳 _${usedPrefix}next_
 ┣ ඬ⃟📳 _${usedPrefix}leave_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CONVIERTETE EN BOT/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶCONVIERTETE EN BOTꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟🏷 _${usedPrefix}stop_
 ┣ ඬ⃟🏷 _${usedPrefix}jadibot_
 ┣ ඬ⃟🏷 _${usedPrefix}getcode_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<LOGOS PERSONALIZADOS/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶLOGOS PERSONALIZADOSꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
@@ -303,9 +303,9 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}cementerio *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}romanticdouble *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}romanticmessages *texto*_
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<PROPIETARO DEL BOT/>*
+┗━─━─━─━─━─━─━─
+┏━─━─━─━─━─━─━─
+┃ *ꪶPROPIETARO DEL BOTꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟👑 _${usedPrefix}boost_
 ┣ ඬ⃟👑 _${usedPrefix}restart_
@@ -338,9 +338,9 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}setwelcome *@tag*_
 ┣ ඬ⃟👑 _${usedPrefix}enable *autoread*_
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
-┗━━━━━━━━━━━━━┛`.trim()
+┗━─━─━─━─━─━─━─`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©Kan - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '©𝑲𝑨𝑵 - 𝑩𝑶𝑻', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
