@@ -22,8 +22,8 @@ let menu =`
 ║➣ *Base: Bruno Sobrino* 
 ║➣ *Creador del Bot: Kanixxx* 
 ║➣ *Numero del creador:* *wa.me/573023900508 (No Bot)*
-║➣ *Numero del SubBot oficial:* *wa.me/37122267202*
-║➣ *El número del Bot oficial queda restringido si quiere convertirse en SubBot deberá hablar con el creador del bot*
+║➣ *Numero del Bot oficial:* *wa.me/37122267202*
+║➣ *El Bot oficial NO se agrega a grupos si quiere puede convertirse en SubBot*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══〘✦ ✦ ✦ ✦ ✦ ✦〙══╯
 ┏━─━─━─━─━─━─━─
