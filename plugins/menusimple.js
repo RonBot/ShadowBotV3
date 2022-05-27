@@ -12,13 +12,13 @@ let { name, limit, exp, banned, lastclaim, registered, regTime, age, level } = g
 let { min, xp, max } = levelling.xpRange(level, global.multiplier)
 let username = conn.getName(who)
 let str = `
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+╭══〘✦ ✦ ✦ ✦ ✦ ✦〙═╮
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!*
+║➣ *🥀𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══╡✯✯✯✯✯✯✯✯╞══╯
-┏━━━━━━━━━━━━━┓
-┃ *<MENU SIMPLE/>*
+╰══〘✦ ✦ ✦ ✦ ✦ ✦〙══╯
+┏━─━─━─━─━─━─━─
+┃ *ꪶMENU SIMPLEꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
@@ -233,7 +233,7 @@ let str = `
 ┣ ඬ⃟📝️ _${usedPrefix}cementerio_
 ┣ ඬ⃟📝️ _${usedPrefix}romanticdouble_
 ┣ ඬ⃟📝️ _${usedPrefix}romanticmessages_
-┗━━━━━━━━━━━━━┛
+┗━─━─━─━─━─━─━─
 `.trim()
 let mentionedJid = [who]
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
