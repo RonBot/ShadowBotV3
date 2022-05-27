@@ -20,7 +20,6 @@ let str = `
 ┏━─━─━─━─━─━─━─
 ┃ *ꪶMENU SIMPLEꫂ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
@@ -28,7 +27,6 @@ let str = `
 ┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
 ┣ ඬ⃟ℹ️ _${usedPrefix}estado_
 ┣ ඬ⃟ℹ️ _Bot_
 ┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
@@ -186,7 +184,6 @@ let str = `
 ┣ ඬ⃟👾 _${usedPrefix}readqr_
 ┣ ඬ⃟👾 _${usedPrefix}anime_
 ┣ ඬ⃟👾 _${usedPrefix}subirestado_
-┣ ඬ⃟🔞 _${usedPrefix}labiblia_
 ┣ ඬ⃟🎤 _${usedPrefix}bass_
 ┣ ඬ⃟🎤 _${usedPrefix}deep_
 ┣ ඬ⃟🎤 _${usedPrefix}earrape_
