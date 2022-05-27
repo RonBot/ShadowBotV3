@@ -14,7 +14,7 @@ let username = conn.getName(who)
 let str = `
 *_😎 Hola ${username} 🥀_*
 
-*<MENU DE AUDIOS/>*
+*ꪶMENU DE AUDIOSꫂ*
 - Escribe las palabras/frases tal como estan, no hace falta poner ningun prefijo (#, ., *, etc) 
 
 ° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
@@ -47,8 +47,6 @@ let str = `
 ° ඬ⃟🔊 _Es puto_
 ° ඬ⃟🔊 _La biblia_
 ° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Bot puto_
-° ඬ⃟🔊 _Shadow Bot_
 ° ඬ⃟🔊 _Siuuu_
 ° ඬ⃟🔊 _Rawr_
 ° ඬ⃟🔊 _UwU_
