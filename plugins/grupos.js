@@ -3,7 +3,7 @@ let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   
 let info = `
-*Ola $(username) 😎, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de Kan - Bot*
+*Ola ${username} 😎, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de Kan - Bot*
 
 *➤ Grupos oficiales del Bot:*
 *1.-* https://chat.whatsapp.com/F7xxlnQ0VHg73IW5gJPtBA 
