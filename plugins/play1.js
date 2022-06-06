@@ -12,14 +12,14 @@ let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(
 conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *Reporductor by 𝑲𝑨𝑵 - 𝑩𝑶𝑻🌙*
 
-*${title}*
+*𝑻𝑰𝑻𝑼𝑳𝑶: ${title}*
 *0:35 ━❍──────── -5:32*
 *⇄ㅤ  ◁    ❚❚    ▷     ↻*
 
 *𝑽𝑶𝑳𝑼𝑴𝑬: ▁ ▂ ▄ ▅ ▆ ▇ 𝟏𝟎𝟎%*
 
 *📂Tamaño del archivo:* ${filesizeF}
-*👉🏻Aguarde un momento en lo que envío su audio/video*
+*⚠️Aguarde un momento en lo que envío su audio/video por favor no hacer spam*
 `.trim(), m)
 let _thumb = {}
 try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
