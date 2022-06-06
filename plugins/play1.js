@@ -10,8 +10,13 @@ if (!vid) throw '*Video/Audio No encontrado* '
 let isVideo = /2$/.test(command)
 let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
 conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
+*Reporductor by 𝑲𝑨𝑵 - 𝑩𝑶𝑻🌙*
+
 *${title}*
-*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
+*0:35 ━❍──────── -5:32*
+*⇄ㅤ  ◁    ❚❚    ▷     ↻*
+
+*𝑽𝑶𝑳𝑼𝑴𝑬: ▁ ▂ ▄ ▅ ▆ ▇ 𝟏𝟎𝟎%*
 
 *📂Tamaño del archivo:* ${filesizeF}
 *👉🏻Aguarde un momento en lo que envío su audio/video*
