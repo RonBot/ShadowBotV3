@@ -16,7 +16,7 @@ conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *0:35 ━❍──────── -5:32*
 *⇄ㅤ  ◁    ❚❚    ▷     ↻*
 
-*𝑽𝑶𝑳𝑼𝑴𝑬: ▁ ▂ ▄ ▅ ▆ ▇ 𝟏𝟎𝟎%*
+*𝑷𝑶𝑾𝑬𝑹: ▁ ▂ ▄ ▅ ▆ ▇ 𝟏𝟎𝟎%*
 
 *📂Tamaño del archivo:* ${filesizeF}
 *⚠️Aguarde un momento en lo que envío su audio/video por favor no hacer spam*
