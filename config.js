@@ -3,7 +3,7 @@ global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://c
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
 global.owner = ['37122262180' , '573023900508'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['573023900508'] //No tiene utilidad
-global.prems = ['573023900508' , '+37122262180' , '50361448999'] //Podra usar algunos comandos del apartado de propietario
+global.prems = ['573023900508' , '37122262180' , '50361448999'] //Podra usar algunos comandos del apartado de propietario
 
 //Lo siguiente no tiene nada que ver con el funcionamiento del Bot:
 //Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
