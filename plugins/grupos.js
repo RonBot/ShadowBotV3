@@ -10,10 +10,10 @@ let info = `
 
 *2.-* https://chat.whatsapp.com/KHpBdTLe0K57qOIxdYxXs5
 
-*3.-* https://chat.whatsapp.com/HguDoHEsQ4iLjVfKKnaWpx
+*3.-* https://chat.whatsapp.com/GSJKM1ggtyC45gu7RhCXgM 
 `.trim() 
 
-conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 𝑲𝑨𝑵 - 𝑩𝑶𝑻 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
+conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 𝑲𝑨𝑵 - 𝑩𝑶𝑻 🌙 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
 
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
 module.exports = handler
